@@ -1,8 +1,14 @@
 import React from 'react';
-import {BrowserRouter} from 'react-router-dom';
+import { Switch, BrowserRouter, Router } from 'react-router-dom';
 
 function App() {
-  return 
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Router />
+      </Switch>
+    </BrowserRouter>
+  )
 }
 
 export default App;
